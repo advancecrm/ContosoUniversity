@@ -29,14 +29,6 @@ namespace ContosoUniversity.Pages
                 {
                     EnrollmentCourse = courseGroup.Key,
                     StudentCount = courseGroup.Count()
-
-                    //from student in _context.Student
-                    //group student by student.EnrollmentDate into dateGroup
-                    //select new EnrollmentDateGroup()
-                    //{
-                    //    EnrollmentDate = dateGroup.Key,
-                    //    StudentCount = dateGroup.Count()
-                    //
                 };
 
              //Student = await data.AsNoTracking().ToListAsync();
